@@ -10,7 +10,7 @@ export default function SignInForm() {
         <div className="signIn-container">
             <div className="sub-container">
                 <div className="signIn-illustration2">
-                    <img src={logo}/>
+                    <img src={logo} />
                     <img src={illustration} />
                 </div>
                 <div className="form-body1">

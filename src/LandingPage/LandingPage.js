@@ -6,15 +6,15 @@ import Footer from "./Footer";
 
 
 function LandingPage() {
-    return (
-          <div>
-            <Navbar/>
-            <Header/>
-            <Advantage/>
-            <Testimonies />
-            <Footer/>
-          </div>      
-    );
-  }
-  
-  export default LandingPage;
+  return (
+    <div>
+      <Navbar />
+      <Header />
+      <Advantage />
+      <Testimonies />
+      <Footer />
+    </div>
+  );
+}
+
+export default LandingPage;

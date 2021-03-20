@@ -50,9 +50,6 @@ export default function Footer() {
                     <div className=" box4">
                         <p>Copyright © 2021. Mkobo Microfinance Bank. All right Reserved</p>
                     </div>
-
-
-
                 </div>
             </div>
         </div>

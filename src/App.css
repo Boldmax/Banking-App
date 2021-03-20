@@ -24,15 +24,18 @@
 }
 
 .nav-buttons {
- width: max-content
-}
-.nav-buttons button:first-child{
-  padding: 0.3758rem 2.3rem !important;
+ width: max-content;
 }
 
-.nav-buttons button{
+.nav-buttons button:first-child{
+  padding: 0.3758rem 2.3rem !important;
+  background-color: green !important;
+}
+
+Link button{
   margin: 0 2rem !important;
   border: 2px solid var(--primary-blue) !important;
+
 }
 
 
@@ -544,7 +547,7 @@ background-color: var(--primary-blue);
 
       .dashboard-nav{
         display: block;
-        height: 80vh;
+        height: 100vh;
         width: 15%;
         margin-top: 0.3rem;
         box-shadow: 5px 15px 20px 5px var(--primary-ligtGrey);

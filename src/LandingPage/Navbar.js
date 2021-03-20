@@ -5,7 +5,6 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import { Link } from "react-router-dom";
 
 
-
 export default function Navbar() {
     return (
         <div>
@@ -13,7 +12,6 @@ export default function Navbar() {
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#">
                         <img src={logo} alt="" style={{ width: "8rem", height: "3.5rem", marginLeft: "-5rem", paddingLeft: "0" }} className="d-inline-block align-top" />
-
                     </a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="bi bi-list text-primary" style={{ fontSize: "2.9rem" }}></span>
@@ -26,10 +24,10 @@ export default function Navbar() {
                         </div>
                         <div className="nav-buttons">
                             <Link to="/loginform">
-                                <button style={{ fontSize: "1.1rem" }} type="button" class="btn btn-outline-primary">Log in</button>
+                                <button style={{ fontSize: "1.1rem" }} type="button" class="btn btn-outline-primary btnn">Log in</button>
                             </Link>
                             <Link to="/dashboard">
-                                <button style={{ fontSize: "1.1rem" }} type="button" class="btn btn-outline-primary">Start investing</button>
+                                <button style={{ fontSize: "1.1rem" }} type="button" class="btn btn-outline-primary btnn">Start investing</button>
                             </Link>
                         </div>
                     </div>

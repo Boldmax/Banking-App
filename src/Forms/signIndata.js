@@ -1,5 +1,5 @@
 const content = {
-    inputs:[
+    inputs: [
         {
             label: "Email Address",
             name: "Email Address",
@@ -12,7 +12,7 @@ const content = {
             type: "Password",
             placeholder: "PassWord",
         },
-        
+
     ]
 }
 

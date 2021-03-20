@@ -7,7 +7,7 @@ export default function HorizontalNav() {
         <div>
             <nav style={{ backgroundColor: "#fff" }} className="navbar navbar-expand-lg navbar-primary">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="#">
+                    <a className="navbar-brand" href="#home">
                         <img src={logo} alt="" style={{ width: "8rem", height: "3.5rem", marginLeft: "-5rem", paddingLeft: "0" }} className="d-inline-block align-top" />
                     </a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
