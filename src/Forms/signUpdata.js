@@ -1,5 +1,5 @@
 const content = {
-    inputs:[
+    inputs: [
         {
             label: "Bank Verification Number (11-digits)",
             name: "BVN",
@@ -7,7 +7,7 @@ const content = {
         },
         {
             label: "Email Address",
-            name: "Email Address",
+            name: "EmailAddress",
             type: "text",
         },
         {
@@ -17,10 +17,10 @@ const content = {
         },
         {
             label: "Confirm Password",
-            name: "Password",
+            name: "PasswordConfirm",
             type: "Password",
         },
-        
+
     ]
 }
 

@@ -2,7 +2,7 @@ const content = {
     inputs: [
         {
             label: "Email Address",
-            name: "Email Address",
+            name: "EmailAddress",
             type: "text",
             placeholder: "Name",
         },
